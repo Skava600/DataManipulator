@@ -31,6 +31,13 @@ All scripts/procedures/requests from points 2-3-4 must be repeatable.
 
  - If you would like to change generation parameters, you can change it in DataManipulatorGenerator project in data generator class.
 
+## Used nuGet packages for application
+
+1) Microsoft.Extensions.Configuration.Abstractions
+2) Microsoft.Extensions.Configuration.Binder
+3) Microsoft.Extensions.Configuration.EnvironmentVariables
+4) Microsoft.Extensions.Configuration.Json
+5) Microsoft.Data.SqlClient
 
 ## Demonstration of work
 
