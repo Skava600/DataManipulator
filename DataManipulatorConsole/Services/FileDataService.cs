@@ -78,7 +78,7 @@ namespace DataManipulatorConsole.Services
                 {
                     int linesCount = lines.Count;
                     lines = lines.Where(l => !l.Contains(deletePattern)).ToList();
-                    deletedLines += lines.Count - linesCount;
+                    deletedLines += linesCount - lines.Count;
                 }                   
 
                 await sw.WriteLineAsync(String.Join("\n", lines)).ConfigureAwait(false);
